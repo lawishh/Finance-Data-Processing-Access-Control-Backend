@@ -93,9 +93,9 @@ cd dashboard
 
 Update application.properties:
 
-spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
-spring.datasource.username=your_username
-spring.datasource.password=your_password
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521:orcl
+spring.datasource.username=system
+spring.datasource.password=system
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
