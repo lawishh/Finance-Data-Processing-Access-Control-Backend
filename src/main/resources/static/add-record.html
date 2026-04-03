@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Record</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+    <h2>Add Record</h2>
+
+    <input type="number" id="amount" placeholder="Amount">
+
+    <select id="type">
+        <option value="INCOME">Income</option>
+        <option value="EXPENSE">Expense</option>
+    </select>
+
+    <input type="text" id="category" placeholder="Category">
+    <input type="date" id="date">
+    <input type="text" id="desc" placeholder="Description">
+
+    <button onclick="addRecord()">Submit</button>
+
+    <p id="msg"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
